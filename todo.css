@@ -1,0 +1,68 @@
+body {
+	margin: 5;
+	padding: 10;
+	font-family: 'Times New Roman';
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(47, 235, 144);
+    border-radius: 10px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px #ccc;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+li {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px #ccc;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.editBtn {
+    width: 50px;
+    padding: 4px;
+	position: absolute;
+	top: 50%;
+	right: 150px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.deleteBtn {
+    width: 60px;
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+	cursor: pointer;
+}
